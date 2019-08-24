@@ -1,0 +1,10 @@
+<h1>COUNT ME</h1>
+
+<form action="{% url 'counts' %}" >
+  <textarea name="name" rows="8" cols="80"></textarea>
+  <br>
+  <input type="submit" value="COUNT"/>
+
+</form>
+<br>
+<a href="{% url 'about' %}"><button type="submit" name="button">See my details</button></a>
